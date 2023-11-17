@@ -1,6 +1,9 @@
 var dateDiffInDays = function (date1, date2) {
   //   write your code here
-	return date1;
+	let x=date1.substring(8,11);
+	let y=date2.substring(8,11);
+	return (y-x);
+
 };
 
 // // Do not change the code below.
